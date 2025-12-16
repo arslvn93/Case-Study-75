@@ -41,16 +41,16 @@ const config = {
       ]
     },
     "sidebar": {
-      "title": "About {{companyName}}",
+      "title": "About Ski Group",
       "image": {
         "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761147528200-Headshot - Stephen Fabbro (1).png"
       },
       "paragraphs": [
-        "At {{companyName}} we are built on integrity, insight, and innovation.",
-        "We combine decades of real estate expertise with cutting-edge technology to deliver unmatched support, transparency, and results for our clients.",
-        "With over 40 years of hands-on real estate experience and extensive corporate backgrounds, our managing partners provide a balanced and strategic approach to Residential, Commercial, and Investment properties.",
-        "We prioritize clear communication and use the latest market insights to guide every client toward success, whether buying, selling, or investing.",
-        "<strong>At iStreet Realty Inc., we're more than real estate experts, we're your trusted partner in building your future.</strong>"
+        "With over 15 years of combined experience, Shar, Oudi, and Stephen bring a personalized, strategic approach to Toronto real estate. As a close-knit team, they specialize in helping buyers, sellers, and investors navigate the market with clarity, confidence, and ease. Their process is built on trust, transparency, and tailored strategies that align with your unique goals—whether you're buying your first home, upgrading, or making a smart investment. With a deep understanding of market trends and a hands-on approach, Shar, Oudi, and Stephen are committed to delivering results while keeping the process smooth and stress-free",
+        "",
+        "",
+        "",
+        ""
       ]
     }
   },
