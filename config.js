@@ -40,7 +40,7 @@ const config = {
   "header": {
     "tag": "CASE STUDY",
     "title": "How We Helped an Investor Win a 10-Offer Bidding War and Secure a Cash-Flowing Duplex in Vaughan",
-    "subheadline": "Purchased in a <strong>High-Demand Area</strong> With Strong Terms—Now Generating Top-Dollar Rent in a Tight Market"
+    "subheadline": "Purchased in a <strong>High-Demand Area</strong> With Strong Terms, Now Generating Top-Dollar Rent in a Tight Market"
   },
   "mainBox": {
     "summary": {
