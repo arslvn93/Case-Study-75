@@ -98,7 +98,7 @@ const config = {
         "<strong>After closing, the client successfully rented out both units</strong> of the property at top market value—proving the property’s income potential. The fast, clean closing allowed the client to move quickly and capitalize on a prime investment opportunity."
       ],
       "image": {
-        "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=800&q=80"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1765745959094-florence%201%20.jpg"
       },
       "listItems": []
     },
