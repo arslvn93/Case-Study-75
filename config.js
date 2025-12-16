@@ -2,35 +2,21 @@ const config = {
   "globals": {
     "agents": [
       {
-        "name": "Rick Roccasalva",
-        "imageSrc": "https://images.unsplash.com/photo-1557862921-37829c790f19?fit=crop&w=100&q=80",
+        "name": "Stephen Fabbro",
+        "imageSrc": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761147528200-Headshot - Stephen Fabbro (1).png",
         "contactDetails": [
           {
             "type": "email",
-            "value": "rick@istreelrealty.ca"
+            "value": "stephen@theskygroup.ca"
           },
           {
             "type": "phone",
-            "value": "(416) 616-9369"
-          }
-        ]
-      },
-      {
-        "name": "Steven Simonetti",
-        "imageSrc": "https://images.unsplash.com/photo-1560250097-0b93528c311a?fit=crop&w=100&q=80",
-        "contactDetails": [
-          {
-            "type": "email",
-            "value": "steven@istreelrealty.ca"
-          },
-          {
-            "type": "phone",
-            "value": "(416) 400-7653"
+            "value": "6479229302"
           }
         ]
       }
     ],
-    "companyName": "iStreet Realty Group",
+    "companyName": "Sky Group",
     "mainCTAButtonText": "Book A Discovery Call",
     "mainCTAButtonURL": "https://calendly.com/theskygroup/discovery-call",
     "primaryColor": "#e3c379",
@@ -73,7 +59,7 @@ const config = {
       "type": "standard",
       "title": "The Challenge",
       "paragraphs": [
-        "This investor client had a clear goal: <strong>find a cash-flowing, turn-key duplex in one of Vaughan’s most desirable neighborhoods—Woodbridge.</strong> Out in a market filled with bidding wars and underlisted homes designed to spark competition, finding the right property and <strong>winning it without overpaying was no small feat.</strong>",
+        "This investor client had a clear goal: <strong>find a cash-flowing, turn-key duplex in one of Vaughan’s most desirable neighborhoods: Woodbridge.</strong> Out in a market filled with bidding wars and underlisted homes designed to spark competition, finding the right property and <strong>winning it without overpaying was no small feat.</strong>",
         "The biggest challenge? <strong>Every worthwhile home had multiple offers</strong>, and this buyer was competing with aggressive bids from both investors and end-users. There was also <strong>lingering uncertainty around whether a property like this could attract renters at top value</strong>, which could make or break the deal financially."
       ],
       "listItems": []
@@ -82,11 +68,11 @@ const config = {
       "type": "standard",
       "title": "The Strategy",
       "paragraphs": [
-        "With 8 properties viewed and a clear sense of what would work, the client was ready to move fast. <strong>When 95 Mondavi Rd hit the market—underlisted at $999,000 to fuel a bidding war—we saw an opportunity.</strong>",
+        "With 8 properties viewed and a clear sense of what would work, the client was ready to move fast. <strong>When 95 Mondavi Rd hit the market, underlisted at $999,000 to fuel a bidding war, we saw an opportunity.</strong>",
         "Rick’s negotiation strategy focused on strong offer terms, not just price. By removing financing conditions, offering a larger deposit, and proposing a quicker close, he positioned the client as a serious, low-risk buyer. Rick also maintained clear and professional communication with the listing agent throughout, building trust and credibility."
       ],
       "testimonial": {
-        "quote": "“I had an amazing experience working with Rick & Steven at iStreet Realty Group. Communication and follow-through were prompt every step. Negotiating the winning offer was about strategy, not just price!”<br><span>— Vaughan Investor</span>"
+        "quote": "“I had an amazing experience working with Rick & Steven at iStreet Realty Group. Communication and follow-through were prompt every step. Negotiating the winning offer was about strategy, not just price!”<br><span> Vaughan Investor</span>"
       },
       "listItems": []
     },
@@ -94,8 +80,8 @@ const config = {
       "type": "standard",
       "title": "The Solution",
       "paragraphs": [
-        "<strong>The winning offer came in at $1,260,000</strong>—not the highest bid on the table, but the most attractive in terms of certainty, speed, and simplicity. The absence of conditions and the strength of the deposit made the difference, and the seller accepted.",
-        "<strong>After closing, the client successfully rented out both units</strong> of the property at top market value—proving the property’s income potential. The fast, clean closing allowed the client to move quickly and capitalize on a prime investment opportunity."
+        "<strong>The winning offer came in at $1,260,000</strong>,not the highest bid on the table, but the most attractive in terms of certainty, speed, and simplicity. The absence of conditions and the strength of the deposit made the difference, and the seller accepted.",
+        "<strong>After closing, the client successfully rented out both units</strong> of the property at top market value proving the property’s income potential. The fast, clean closing allowed the client to move quickly and capitalize on a prime investment opportunity."
       ],
       "image": {
         "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1765745959094-florence%201%20.jpg"
@@ -116,7 +102,7 @@ const config = {
       "type": "standard",
       "title": "Conclusion",
       "paragraphs": [
-        "<strong>In a competitive market, success doesn’t always come down to price.</strong> With the right agent, strategy, and negotiation, even a 10-offer bidding war can be an opportunity—not a roadblock."
+        "<strong>In a competitive market, success doesn’t always come down to price.</strong> With the right agent, strategy, and negotiation, even a 10-offer bidding war can be an opportunity, not a roadblock."
       ],
       "listItems": []
     },
