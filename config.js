@@ -118,17 +118,17 @@ const config = {
   "footer": {
     "privacyPolicy": {
       "text": "Privacy Policy",
-      "href": "#"
+      "href": "https://www.mls.theskygroup.ca/privacy-policy"
     },
     "logo": {
       "src": "https://images.unsplash.com/photo-1511367461989-f85a21fda167?fit=crop&w=200&q=80"
     },
     "secondaryLogo": {
-      "src": "https://i.imgur.com/9GIzqTo.png"
+      "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-Property_logo_W.png"
     },
     "brokerageLabel": "Brokerage:",
-    "brokerageName": "Homelife Partners Realty Corp.",
-    "brokerageAddress": "123 Main Street, Suite 456, Toronto, ON M1M 1M1",
+    "brokerageName": "Property.ca Inc",
+    "brokerageAddress": "36 Distillery Lane unit 500, Toronto, ON M5A 3C4",
     "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary."
   },
   "githubRepo": "https://github.com/arslvn93/Case-Study-75"
