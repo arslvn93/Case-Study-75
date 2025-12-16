@@ -43,7 +43,7 @@ const config = {
     "sidebar": {
       "title": "About {{companyName}}",
       "image": {
-        "src": "https://images.unsplash.com/photo-1511367461989-f85a21fda167?fit=crop&w=200&q=80"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761147528200-Headshot - Stephen Fabbro (1).png"
       },
       "paragraphs": [
         "At {{companyName}} we are built on integrity, insight, and innovation.",
