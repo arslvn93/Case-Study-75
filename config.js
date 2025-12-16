@@ -41,7 +41,7 @@ const config = {
       ]
     },
     "sidebar": {
-      "title": "About Ski Group",
+      "title": "About Sky Group",
       "image": {
         "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761147528200-Headshot - Stephen Fabbro (1).png"
       },
