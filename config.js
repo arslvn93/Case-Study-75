@@ -63,8 +63,8 @@ const config = {
         "At {{companyName}} we are built on integrity, insight, and innovation.",
         "We combine decades of real estate expertise with cutting-edge technology to deliver unmatched support, transparency, and results for our clients.",
         "With over 40 years of hands-on real estate experience and extensive corporate backgrounds, our managing partners provide a balanced and strategic approach to Residential, Commercial, and Investment properties.",
-        "We prioritize clear communication and use the latest market insights to guide every client toward success—whether buying, selling, or investing.",
-        "<strong>At iStreet Realty Inc., we're more than real estate experts—we're your trusted partner in building your future.</strong>"
+        "We prioritize clear communication and use the latest market insights to guide every client toward success, whether buying, selling, or investing.",
+        "<strong>At iStreet Realty Inc., we're more than real estate experts, we're your trusted partner in building your future.</strong>"
       ]
     }
   },
