@@ -46,7 +46,7 @@ const config = {
     "summary": {
       "title": "How We Helped an Investor Win a 10-Offer Bidding War and Secure a Cash-Flowing Duplex in Vaughan",
       "heroImage": {
-        "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=800&q=80"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1765745951384-Florence%20outside%202.jpg"
       },
       "subTitle": "Summary",
       "paragraphs": [
