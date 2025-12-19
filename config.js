@@ -139,7 +139,7 @@ const config = {
   "footer": {
     "privacyPolicy": {
       "text": "Privacy Policy",
-      "href": "https://www.mls.theskygroup.ca/privacy-policy"
+      "href": "https://property.ca/privacy"
     },
     "logo": {
       "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761147827521-Image 2025-10-22 at 11.43 AM.jpeg"
