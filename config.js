@@ -63,7 +63,7 @@ const config = {
     "sidebar": {
       "title": "About {{companyName}}",
       "image": {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761147827521-Image 2025-10-22 at 11.43 AM.jpeg"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-571174222_802490535868947_163498667646218593_n.png"
       },
       "paragraphs": [
         "With over 15 years of combined experience, Shar, Oudi, and Stephen bring a personalized, strategic approach to Toronto real estate. As a close-knit team, they specialize in helping buyers, sellers, and investors navigate the market with clarity, confidence, and ease. Their process is built on trust, transparency, and tailored strategies that align with your unique goals—whether you're buying your first home, upgrading, or making a smart investment. With a deep understanding of market trends and a hands-on approach, Shar, Oudi, and Stephen are committed to delivering results while keeping the process smooth and stress-free"
@@ -92,9 +92,6 @@ const config = {
         "Refused to cave to seller pressure tactics demanding clean offers without conditions, fighting aggressively to protect our buyers with the closing date and protective terms they needed",
         "Pre-strategized budget ceilings and walk-away points before each negotiation, creating a safety net that prevented panic decisions in the heat of bidding wars"
       ],
-      "testimonial": {
-        "quote": "\n"
-      },
       "listItems": []
     },
     {
