@@ -1,56 +1,57 @@
+// =================================================================================================
+// PAGE CONFIGURATION OBJECT
+// This file defines all the dynamic content for the case study page.
+// The `renderer.js` file reads this object to build the HTML.
+// To change text, images, or other content, edit the values in this file.
+// =_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_
 const config = {
   "globals": {
+    "companyName": "Sky Group",
+    "mainCTAButtonText": "Book A Discovery Call",
+    "mainCTAButtonURL": "#contact",
+    "primaryColor": "#e3c379",
+    "accentColor": "#d9c6a2",
     "agents": [
       {
-        "name": "Stephen Fabbro",
-        "imageSrc": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761147528200-Headshot - Stephen Fabbro (1).png",
+        "name": "Shar Banifatemi",
+        "imageSrc": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761147827521-Image 2025-10-22 at 11.43 AM.jpeg",
         "contactDetails": [
           {
             "type": "email",
-            "value": "stephen@theskygroup.ca"
+            "value": "shar@theskygroup.ca"
           },
           {
             "type": "phone",
-            "value": "6479229302"
+            "value": "6478874996"
           }
         ]
       }
-    ],
-    "companyName": "Sky Group",
-    "mainCTAButtonText": "Book A Discovery Call",
-    "mainCTAButtonURL": "https://calendly.com/theskygroup/discovery-call",
-    "primaryColor": "#e3c379",
-    "accentColor": "#d9c6a2",
-    "facebookPixelId": "1074316633770404"
+    ]
   },
   "header": {
     "tag": "CASE STUDY",
-    "title": "How We Helped an Investor Win a 10-Offer Bidding War and Secure a Cash-Flowing Duplex in Vaughan",
-    "subheadline": "Purchased in a <strong>High-Demand Area</strong> With Strong Terms, Now Generating Top-Dollar Rent in a Tight Market"
+    "title": "How We Helped First-Time Buyers Under 30 Win Their Dream Townhouse in Toronto's Trendiest Neighbourhood Without Overpaying",
+    "subheadline": "Secured a Modern Freehold in Their Dream Location With Full Conditions—While Competing Buyers Went in Blind"
   },
   "mainBox": {
     "summary": {
-      "title": "How We Helped an Investor Win a 10-Offer Bidding War and Secure a Cash-Flowing Duplex in Vaughan",
+      "title": "How We Helped First-Time Buyers Under 30 Win Their Dream Townhouse in Toronto's Trendiest Neighbourhood Without Overpaying",
       "heroImage": {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1765745951384-Florence%20outside%202.jpg"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1765745951384-Florence outside 2.jpg"
       },
       "subTitle": "Summary",
       "paragraphs": [
-        "In one of Vaughan’s most competitive pockets, a <strong>savvy investor client was looking for a cash-flowing, turn-key property to build long-term generational wealth</strong>. The challenge: high demand, limited inventory, and bidding wars on nearly every listing worth seeing.",
-        "After viewing 8 homes, we found a <strong>rare 2-unit property in Woodbridge</strong> underlisted at $999k to spark competition. The listing drew 10 offers, but through strategic negotiation, a larger deposit, firm terms, and a quick close... we won the deal at $1.26M without needing to be the highest bid. The property has since been <strong>rented at top market value</strong>, exceeding the client’s expectations and <strong>setting the foundation for strong equity gains</strong> in the years to come."
+        "Two ambitious renters in their late twenties were stuck in a frustrating cycle: settling for homes they didn't love in areas that didn't excite them, or watching their dream neighbourhood slip further out of reach. After pausing their search to advance their careers and increase their budget, they came back ready to make their move—but this time, they refused to compromise on location or peace of mind.",
+        "Through professional service and market expertise, we delivered exceptional results for our client. Secured their dream freehold townhouse in one of Toronto's most coveted neighbourhoods for $1,273,000—below what they anticipated paying in a competitive market <strong>WON IN A MULTIPLE OFFER SITUATION</strong> while keeping all protective conditions intact, despite seller pressure to submit a clean offer Negotiated terms that worked for their timeline and protected their interests, closing in just over 30 days with zero stress <strong>PURCHASED A MODERN HOME UNDER 20 YEARS OLD</strong>—eliminating the renovation nightmare and constant maintenance costs that plagued other properties in the area Achieved homeownership before age 30 in a neighbourhood where most of their friends are still renting, positioning them with long-term equity growth in a high-demand area"
       ]
     },
     "sidebar": {
-      "title": "About Sky Group",
+      "title": "About {{companyName}}",
       "image": {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761147528200-Headshot - Stephen Fabbro (1).png"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761147827521-Image 2025-10-22 at 11.43 AM.jpeg"
       },
       "paragraphs": [
-        "With over 15 years of combined experience, Shar, Oudi, and Stephen bring a personalized, strategic approach to Toronto real estate. As a close-knit team, they specialize in helping buyers, sellers, and investors navigate the market with clarity, confidence, and ease. Their process is built on trust, transparency, and tailored strategies that align with your unique goals—whether you're buying your first home, upgrading, or making a smart investment. With a deep understanding of market trends and a hands-on approach, Shar, Oudi, and Stephen are committed to delivering results while keeping the process smooth and stress-free",
-        "",
-        "",
-        "",
-        ""
+        "With over 15 years of combined experience, Shar, Oudi, and Stephen bring a personalized, strategic approach to Toronto real estate. As a close-knit team, they specialize in helping buyers, sellers, and investors navigate the market with clarity, confidence, and ease. Their process is built on trust, transparency, and tailored strategies that align with your unique goals—whether you're buying your first home, upgrading, or making a smart investment. With a deep understanding of market trends and a hands-on approach, Shar, Oudi, and Stephen are committed to delivering results while keeping the process smooth and stress-free"
       ]
     }
   },
@@ -59,81 +60,84 @@ const config = {
       "type": "standard",
       "title": "The Challenge",
       "paragraphs": [
-        "This investor client had a clear goal: <strong>find a cash-flowing, turn-key duplex in one of Vaughan’s most desirable neighborhoods: Woodbridge.</strong> Out in a market filled with bidding wars and underlisted homes designed to spark competition, finding the right property and <strong>winning it without overpaying was no small feat.</strong>",
-        "The biggest challenge? <strong>Every worthwhile home had multiple offers</strong>, and this buyer was competing with aggressive bids from both investors and end-users. There was also <strong>lingering uncertainty around whether a property like this could attract renters at top value</strong>, which could make or break the deal financially."
-      ],
-      "listItems": []
+        "Their increased budget finally opened doors in the trendy Toronto neighbourhood they were renting in—but nearly every property was 80 to 110 years old, requiring constant maintenance and renovations they weren't equipped to handle as first-time buyers",
+        "They were terrified of biting off more than they could chew with an older home that looked updated but would demand endless repairs and renovation costs down the road",
+        "Finding a newer, move-in-ready freehold property in their coveted area felt nearly impossible, and they worried they'd have to choose between location and livability",
+        "Multiple offer situations kept popping up, and sellers were pressuring buyers to drop conditions and closing dates—creating fear they'd have to sacrifice protection to compete"
+      ]
     },
     {
       "type": "standard",
       "title": "The Strategy",
       "paragraphs": [
-        "With 8 properties viewed and a clear sense of what would work, the client was ready to move fast. <strong>When 95 Mondavi Rd hit the market, underlisted at $999,000 to fuel a bidding war, we saw an opportunity.</strong>",
-        "Rick’s negotiation strategy focused on strong offer terms, not just price. By removing financing conditions, offering a larger deposit, and proposing a quicker close, he positioned the client as a serious, low-risk buyer. Rick also maintained clear and professional communication with the listing agent throughout, building trust and credibility."
+        "Redirected their focus from \"settling\" for a starter condo townhouse in Scarborough to aligning their purchase with their actual long-term goals—saving them from wasting time and money on a home they'd regret",
+        "Conducted deep-dive market analysis on comparable sales before every offer presentation, establishing clear value benchmarks so emotions wouldn't lead to overpaying in competitive situations",
+        "Crafted personalized letters with photos for every offer to humanize our buyers and help sellers connect with them beyond just numbers—turning them from \"another bidder\" into real people",
+        "Refused to cave to seller pressure tactics demanding clean offers without conditions, fighting aggressively to protect our buyers with the closing date and protective terms they needed",
+        "Pre-strategized budget ceilings and walk-away points before each negotiation, creating a safety net that prevented panic decisions in the heat of bidding wars"
       ],
       "testimonial": {
-        "quote": "“I had an amazing experience working with Rick & Steven at iStreet Realty Group. Communication and follow-through were prompt every step. Negotiating the winning offer was about strategy, not just price!”<br><span> Vaughan Investor</span>"
-      },
-      "listItems": []
+        "quote": "\"\"We can't say enough about the level of care and patience the entire Sky Group team showed us throughout this journey. From the mortgage broker to the lawyer to the trades people—everyone treated us like we mattered. Shar never pushed us when we needed time, educated us so we felt confident, and fought for us when sellers tried to bully us into giving up our conditions. We're not even 30 yet and we own a home in the exact neighbourhood we love. We didn't have to settle, and we didn't overpay. That's because Shar had our backs every single step of the way.\"\"<br><span>— Satisfied Client</span>"
+      }
     },
     {
       "type": "standard",
       "title": "The Solution",
       "paragraphs": [
-        "<strong>The winning offer came in at $1,260,000</strong>,not the highest bid on the table, but the most attractive in terms of certainty, speed, and simplicity. The absence of conditions and the strength of the deposit made the difference, and the seller accepted.",
-        "<strong>After closing, the client successfully rented out both units</strong> of the property at top market value proving the property’s income potential. The fast, clean closing allowed the client to move quickly and capitalize on a prime investment opportunity."
+        "After being referred to several agents, they chose to work with us because we took the time to truly educate them about the entire buying process—without pressure or pushy tactics. When they needed to pause their search to hit career milestones, we respected their timeline and stayed patient. That trust paid off when they were ready to re-enter the market with confidence."
       ],
       "image": {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1765745959094-florence%201%20.jpg"
-      },
-      "listItems": []
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1765745959094-florence 1 .jpg"
+      }
     },
     {
       "type": "standard",
       "title": "The Results",
-      "paragraphs": [],
-      "listItems": [
-        "The client won a competitive 10-offer bidding war and secured a turn-key duplex in Woodbridge that now generates strong rental income.",
-        "Both units were rented out at top market value shortly after closing, confirming the investment’s potential.",
-        "<strong>By acting quickly and strategically, the client not only acquired a high-performing property in a competitive market, but also set themselves up for significant equity growth over the next 3–5 years.</strong>"
+      "paragraphs": [
+        "Secured their dream freehold townhouse in one of Toronto's most coveted neighbourhoods for $1,273,000—below what they anticipated paying in a competitive market",
+        "<strong>WON IN A MULTIPLE OFFER SITUATION</strong> while keeping all protective conditions intact, despite seller pressure to submit a clean offer",
+        "Negotiated terms that worked for their timeline and protected their interests, closing in just over 30 days with zero stress",
+        "<strong>PURCHASED A MODERN HOME UNDER 20 YEARS OLD</strong>—eliminating the renovation nightmare and constant maintenance costs that plagued other properties in the area",
+        "Achieved homeownership before age 30 in a neighbourhood where most of their friends are still renting, positioning them with long-term equity growth in a high-demand area"
       ]
     },
     {
       "type": "standard",
       "title": "Conclusion",
       "paragraphs": [
-        "<strong>In a competitive market, success doesn’t always come down to price.</strong> With the right agent, strategy, and negotiation, even a 10-offer bidding war can be an opportunity, not a roadblock."
-      ],
-      "listItems": []
+        "Don't let your budget force you into settling for a home that doesn't align with your long-term goals—sometimes waiting and strategizing is smarter than rushing into the wrong property",
+        "In multiple offer situations, standing firm on your conditions and walk-away price is how you avoid overpaying and protect yourself—even when sellers try to pressure you into going in blind",
+        "Humanizing your offer with a personal letter and photo can be the difference-maker that helps sellers choose you over higher bids, especially in emotional sales where connection matters"
+      ]
     },
     {
       "type": "ctaBanner",
       "ctaBannerContent": {
         "subhead": "Trusted By Hundreds Of Home Buyers & Sellers",
-        "headline": "Find Out More About Working With<br>Rick Roccasalva and Steven<br>Simonetti at {{companyName}}",
+        "headline": "Book Your Personalized Market Strategy Session—Discover What You Can Actually Afford in Your Dream Neighbourhood (Without Settling or Overpaying)",
         "smallText": "Book A Discovery Call Now ➡️"
       }
     }
   ],
   "footer": {
-    "privacyPolicy": {
-      "text": "Privacy Policy",
-      "href": "https://www.mls.theskygroup.ca/privacy-policy"
-    },
     "logo": {
-      "src": "https://images.unsplash.com/photo-1511367461989-f85a21fda167?fit=crop&w=200&q=80"
-    },
-    "secondaryLogo": {
-      "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-Property_logo_W.png"
+      "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761147827521-Image 2025-10-22 at 11.43 AM.jpeg"
     },
     "brokerageLabel": "Brokerage:",
     "brokerageName": "Property.ca Inc",
     "brokerageAddress": "36 Distillery Lane unit 500, Toronto, ON M5A 3C4",
-    "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary."
-  },
-  "githubRepo": "https://github.com/arslvn93/Case-Study-75"
+    "secondaryLogo": {
+      "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-Property_logo_W.png"
+    },
+    "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary.",
+    "privacyPolicy": {
+      "text": "Privacy Policy",
+      "href": "https://www.mls.theskygroup.ca/privacy-policy"
+    }
+  }
 };
 
+// Export for Node.js environment (if applicable) or set for browser
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = config;
 } else if (typeof window !== 'undefined') {
