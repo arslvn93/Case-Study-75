@@ -55,10 +55,10 @@ const config = {
       "type": "standard",
       "title": "The Challenge",
       "paragraphs": [
-        "Their increased budget finally opened doors in the trendy Toronto neighbourhood they were renting in—but nearly every property was 80 to 110 years old, requiring constant maintenance and renovations they weren't equipped to handle as first-time buyers",
+        "Their increased budget finally opened doors in the trendy Toronto neighbourhood they were renting in, but nearly every property was 80 to 110 years old, requiring constant maintenance and renovations they weren't equipped to handle as first-time buyers",
         "They were terrified of biting off more than they could chew with an older home that looked updated but would demand endless repairs and renovation costs down the road",
         "Finding a newer, move-in-ready freehold property in their coveted area felt nearly impossible, and they worried they'd have to choose between location and livability",
-        "Multiple offer situations kept popping up, and sellers were pressuring buyers to drop conditions and closing dates—creating fear they'd have to sacrifice protection to compete"
+        "Multiple offer situations kept popping up, and sellers were pressuring buyers to drop conditions and closing dates, creating fear they'd have to sacrifice protection to compete"
       ],
       "listItems": []
     },
@@ -66,14 +66,14 @@ const config = {
       "type": "standard",
       "title": "The Strategy",
       "paragraphs": [
-        "Redirected their focus from \"settling\" for a starter condo townhouse in Scarborough to aligning their purchase with their actual long-term goals—saving them from wasting time and money on a home they'd regret",
+        "Redirected their focus from \"settling\" for a starter condo townhouse in Scarborough to aligning their purchase with their actual long-term goals, saving them from wasting time and money on a home they'd regret",
         "Conducted deep-dive market analysis on comparable sales before every offer presentation, establishing clear value benchmarks so emotions wouldn't lead to overpaying in competitive situations",
-        "Crafted personalized letters with photos for every offer to humanize our buyers and help sellers connect with them beyond just numbers—turning them from \"another bidder\" into real people",
+        "Crafted personalized letters with photos for every offer to humanize our buyers and help sellers connect with them beyond just numbers, turning them from \"another bidder\" into real people",
         "Refused to cave to seller pressure tactics demanding clean offers without conditions, fighting aggressively to protect our buyers with the closing date and protective terms they needed",
         "Pre-strategized budget ceilings and walk-away points before each negotiation, creating a safety net that prevented panic decisions in the heat of bidding wars"
       ],
       "testimonial": {
-        "quote": "\"\"We can't say enough about the level of care and patience the entire Sky Group team showed us throughout this journey. From the mortgage broker to the lawyer to the trades people—everyone treated us like we mattered. Shar never pushed us when we needed time, educated us so we felt confident, and fought for us when sellers tried to bully us into giving up our conditions. We're not even 30 yet and we own a home in the exact neighbourhood we love. We didn't have to settle, and we didn't overpay. That's because Shar had our backs every single step of the way.\"\"<br><span>— Satisfied Client</span>"
+        "quote": "\n"
       },
       "listItems": []
     },
@@ -92,10 +92,10 @@ const config = {
       "type": "standard",
       "title": "The Results",
       "paragraphs": [
-        "Secured their dream freehold townhouse in one of Toronto's most coveted neighbourhoods for $1,273,000—below what they anticipated paying in a competitive market",
+        "Secured their dream freehold townhouse in one of Toronto's most coveted neighbourhoods for $1,273,000, below what they anticipated paying in a competitive market",
         "<strong>WON IN A MULTIPLE OFFER SITUATION</strong> while keeping all protective conditions intact, despite seller pressure to submit a clean offer",
         "Negotiated terms that worked for their timeline and protected their interests, closing in just over 30 days with zero stress",
-        "<strong>PURCHASED A MODERN HOME UNDER 20 YEARS OLD</strong>—eliminating the renovation nightmare and constant maintenance costs that plagued other properties in the area",
+        "<strong>PURCHASED A MODERN HOME UNDER 20 YEARS OLD</strong>, eliminating the renovation nightmare and constant maintenance costs that plagued other properties in the area",
         "Achieved homeownership before age 30 in a neighbourhood where most of their friends are still renting, positioning them with long-term equity growth in a high-demand area"
       ],
       "listItems": []
@@ -104,8 +104,8 @@ const config = {
       "type": "standard",
       "title": "Conclusion",
       "paragraphs": [
-        "Don't let your budget force you into settling for a home that doesn't align with your long-term goals—sometimes waiting and strategizing is smarter than rushing into the wrong property",
-        "In multiple offer situations, standing firm on your conditions and walk-away price is how you avoid overpaying and protect yourself—even when sellers try to pressure you into going in blind",
+        "Don't let your budget force you into settling for a home that doesn't align with your long-term goals, sometimes waiting and strategizing is smarter than rushing into the wrong property",
+        "In multiple offer situations, standing firm on your conditions and walk-away price is how you avoid overpaying and protect yourself, even when sellers try to pressure you into going in blind",
         "Humanizing your offer with a personal letter and photo can be the difference-maker that helps sellers choose you over higher bids, especially in emotional sales where connection matters"
       ],
       "listItems": []
@@ -114,7 +114,7 @@ const config = {
       "type": "ctaBanner",
       "ctaBannerContent": {
         "subhead": "Trusted By Hundreds Of Home Buyers & Sellers",
-        "headline": "Book Your Personalized Market Strategy Session—Discover What You Can Actually Afford in Your Dream Neighbourhood (Without Settling or Overpaying)",
+        "headline": "Book Your Personalized Market Strategy Session. Discover What You Can Actually Afford in Your Dream Neighbourhood (Without Settling or Overpaying)",
         "smallText": "Book A Discovery Call Now ➡️"
       }
     }
