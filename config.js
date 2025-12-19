@@ -1,16 +1,5 @@
-// =================================================================================================
-// PAGE CONFIGURATION OBJECT
-// This file defines all the dynamic content for the case study page.
-// The `renderer.js` file reads this object to build the HTML.
-// To change text, images, or other content, edit the values in this file.
-// =_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_
 const config = {
   "globals": {
-    "companyName": "Sky Group",
-    "mainCTAButtonText": "Book A Discovery Call",
-    "mainCTAButtonURL": "#contact",
-    "primaryColor": "#e3c379",
-    "accentColor": "#d9c6a2",
     "agents": [
       {
         "name": "Shar Banifatemi",
@@ -26,12 +15,18 @@ const config = {
           }
         ]
       }
-    ]
+    ],
+    "companyName": "Sky Group",
+    "mainCTAButtonText": "Book A Discovery Call",
+    "mainCTAButtonURL": "https://calendly.com/theskygroup/discovery-call",
+    "primaryColor": "#e3c379",
+    "accentColor": "#d9c6a2",
+    "facebookPixelId": ""
   },
   "header": {
     "tag": "CASE STUDY",
     "title": "How We Helped First-Time Buyers Under 30 Win Their Dream Townhouse in Toronto's Trendiest Neighbourhood Without Overpaying",
-    "subheadline": "Secured a Modern Freehold in Their Dream Location With Full Conditions—While Competing Buyers Went in Blind"
+    "subheadline": "Secured a Modern Freehold in Their Dream Location With Full Conditions, While Competing Buyers Went in Blind"
   },
   "mainBox": {
     "summary": {
@@ -64,7 +59,8 @@ const config = {
         "They were terrified of biting off more than they could chew with an older home that looked updated but would demand endless repairs and renovation costs down the road",
         "Finding a newer, move-in-ready freehold property in their coveted area felt nearly impossible, and they worried they'd have to choose between location and livability",
         "Multiple offer situations kept popping up, and sellers were pressuring buyers to drop conditions and closing dates—creating fear they'd have to sacrifice protection to compete"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "standard",
@@ -78,7 +74,8 @@ const config = {
       ],
       "testimonial": {
         "quote": "\"\"We can't say enough about the level of care and patience the entire Sky Group team showed us throughout this journey. From the mortgage broker to the lawyer to the trades people—everyone treated us like we mattered. Shar never pushed us when we needed time, educated us so we felt confident, and fought for us when sellers tried to bully us into giving up our conditions. We're not even 30 yet and we own a home in the exact neighbourhood we love. We didn't have to settle, and we didn't overpay. That's because Shar had our backs every single step of the way.\"\"<br><span>— Satisfied Client</span>"
-      }
+      },
+      "listItems": []
     },
     {
       "type": "standard",
@@ -88,7 +85,8 @@ const config = {
       ],
       "image": {
         "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1765745959094-florence 1 .jpg"
-      }
+      },
+      "listItems": []
     },
     {
       "type": "standard",
@@ -99,7 +97,8 @@ const config = {
         "Negotiated terms that worked for their timeline and protected their interests, closing in just over 30 days with zero stress",
         "<strong>PURCHASED A MODERN HOME UNDER 20 YEARS OLD</strong>—eliminating the renovation nightmare and constant maintenance costs that plagued other properties in the area",
         "Achieved homeownership before age 30 in a neighbourhood where most of their friends are still renting, positioning them with long-term equity growth in a high-demand area"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "standard",
@@ -108,7 +107,8 @@ const config = {
         "Don't let your budget force you into settling for a home that doesn't align with your long-term goals—sometimes waiting and strategizing is smarter than rushing into the wrong property",
         "In multiple offer situations, standing firm on your conditions and walk-away price is how you avoid overpaying and protect yourself—even when sellers try to pressure you into going in blind",
         "Humanizing your offer with a personal letter and photo can be the difference-maker that helps sellers choose you over higher bids, especially in emotional sales where connection matters"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "ctaBanner",
@@ -120,24 +120,24 @@ const config = {
     }
   ],
   "footer": {
+    "privacyPolicy": {
+      "text": "Privacy Policy",
+      "href": "https://www.mls.theskygroup.ca/privacy-policy"
+    },
     "logo": {
       "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1761147827521-Image 2025-10-22 at 11.43 AM.jpeg"
+    },
+    "secondaryLogo": {
+      "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-Property_logo_W.png"
     },
     "brokerageLabel": "Brokerage:",
     "brokerageName": "Property.ca Inc",
     "brokerageAddress": "36 Distillery Lane unit 500, Toronto, ON M5A 3C4",
-    "secondaryLogo": {
-      "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-Property_logo_W.png"
-    },
-    "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary.",
-    "privacyPolicy": {
-      "text": "Privacy Policy",
-      "href": "https://www.mls.theskygroup.ca/privacy-policy"
-    }
-  }
+    "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary."
+  },
+  "githubRepo": "https://github.com/arslvn93/Case-Study-75"
 };
 
-// Export for Node.js environment (if applicable) or set for browser
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = config;
 } else if (typeof window !== 'undefined') {
