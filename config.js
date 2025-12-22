@@ -8,10 +8,6 @@ const config = {
           {
             "type": "email",
             "value": "shar@theskygroup.ca"
-          },
-          {
-            "type": "phone",
-            "value": "6478874996"
           }
         ]
       },
