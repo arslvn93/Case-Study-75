@@ -38,7 +38,7 @@ const config = {
     ],
     "companyName": "Sky Group",
     "mainCTAButtonText": "Book A Discovery Call",
-    "mainCTAButtonURL": "https://calendly.com/theskygroup/discovery-call",
+    "mainCTAButtonURL": "https://calendly.com/shar-banifatemi/discovery-call?month=2025-12",
     "primaryColor": "#e3c379",
     "accentColor": "#d9c6a2",
     "facebookPixelId": ""
