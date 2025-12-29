@@ -97,7 +97,7 @@ const config = {
         "After being referred to several agents, they chose to work with us because we took the time to truly educate them about the entire buying process—without pressure or pushy tactics. When they needed to pause their search to hit career milestones, we respected their timeline and stayed patient. That trust paid off when they were ready to re-enter the market with confidence."
       ],
       "image": {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1765745959094-florence 1 .jpg"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-1765745959285-Florence2.jpg"
       },
       "listItems": []
     },
