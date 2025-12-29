@@ -48,7 +48,7 @@ const config = {
     "summary": {
       "title": "How We Helped First-Time Buyers Under 30 Win Their Dream Townhouse in Toronto's Trendiest Neighbourhood Without Overpaying",
       "heroImage": {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-1765745959285-Florence2.jpg"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1765745959094-florence 1 .jpg"
       },
       "subTitle": "Summary",
       "paragraphs": [
