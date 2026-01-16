@@ -37,7 +37,7 @@ const config = {
     "mainCTAButtonURL": "https://calendly.com/shar-banifatemi/discovery-call?month=2025-12",
     "primaryColor": "#e3c379",
     "accentColor": "#d9c6a2",
-    "facebookPixelId": ""
+    "facebookPixelId": "380781217326789"
   },
   "header": {
     "tag": "CASE STUDY",
